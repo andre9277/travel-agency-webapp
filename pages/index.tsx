@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Navbar from "./Components/Helper/Navbar";
-import MobileNav from "./Components/Helper/MobileNav";
-import Hero from "./Components/Helper/Hero";
+import Navbar from "./Components/Navbar";
+import MobileNav from "./Components/MobileNav";
+import Hero from "./Components/Hero";
 
 const HomePage = () => {
   const [nav, setNav] = useState(false);
