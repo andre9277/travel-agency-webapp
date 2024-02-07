@@ -6,6 +6,7 @@ import TopDestination from "./Components/TopDestination";
 import Hotels from "./Components/Hotels";
 import Reviews from "./Components/Reviews";
 import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 
 const HomePage = () => {
   const [nav, setNav] = useState(false);
@@ -23,6 +24,7 @@ const HomePage = () => {
       {/* Reviews */}
       <Reviews />
       <Contact />
+      <Footer />
     </div>
   );
 };
