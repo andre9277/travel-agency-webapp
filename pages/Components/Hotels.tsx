@@ -6,7 +6,7 @@ const Hotels = () => {
     <div className="pt-[5rem] bg-gray-300 pb-[4rem]">
       <h1 className="heading"> Best Hotel</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[3rem] items-center w-[80%] mx-auto mt-[4rem]">
-        <div>
+        <div data-aos="fade-left">
           {/* HotelCard */}
           <HotelCard
             name=" Hotel Nextus"
@@ -16,7 +16,7 @@ const Hotels = () => {
             image="/images/h1.jpeg"
           />
         </div>
-        <div>
+        <div data-aos="zoom-in" data-aos-delay="300">
           {" "}
           <HotelCard
             name=" Hotel Reactive"
@@ -26,7 +26,7 @@ const Hotels = () => {
             image="/images/h2.jpg"
           />
         </div>
-        <div>
+        <div data-aos="fade-right" data-aos-delays="600">
           {" "}
           <HotelCard
             name=" Hotel TypeScrip"
@@ -36,7 +36,7 @@ const Hotels = () => {
             image="/images/h3.jpeg"
           />
         </div>
-        <div>
+        <div data-aos="fade-left" data-aos-delays="900">
           {" "}
           <HotelCard
             name=" Hotel Mongohouse"
@@ -46,7 +46,7 @@ const Hotels = () => {
             image="/images/h4.jpg"
           />
         </div>
-        <div>
+        <div data-aos="zoom-in" data-aos-delays="1200">
           {" "}
           <HotelCard
             name=" Hotel Tailwind"
@@ -56,7 +56,7 @@ const Hotels = () => {
             image="/images/h5.jpg"
           />
         </div>
-        <div>
+        <div data-aos="fade-right" data-aos-delays="1600">
           {" "}
           <HotelCard
             name=" Hotel Webdev"
