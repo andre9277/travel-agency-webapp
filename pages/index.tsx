@@ -3,6 +3,7 @@ import Navbar from "./Components/Navbar";
 import MobileNav from "./Components/MobileNav";
 import Hero from "./Components/Hero";
 import TopDestination from "./Components/TopDestination";
+import Hotels from "./Components/Hotels";
 
 const HomePage = () => {
   const [nav, setNav] = useState(false);
@@ -15,6 +16,8 @@ const HomePage = () => {
       <Navbar openNav={openNavHandler} />
       <Hero />
       <TopDestination />
+      {/* Hotels */}
+      <Hotels />
     </div>
   );
 };
