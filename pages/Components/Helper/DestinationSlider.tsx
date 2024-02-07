@@ -6,15 +6,18 @@ import "react-multi-carousel/lib/styles.css";
 const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1300 },
-    items: 3,
+    items: 5,
+    slidesToSlide: 1,
   },
   tablet: {
     breakpoint: { max: 1300, min: 764 },
-    items: 2,
+    items: 3,
+    slidesToSlide: 1,
   },
   mobile: {
     breakpoint: { max: 764, min: 0 },
     items: 1,
+    slidesToSlide: 1,
   },
 };
 
@@ -40,6 +43,61 @@ const DestinationSlider = () => {
         />
         <h1 className="destination__h1">New York</h1>
         <p className="destination__p"> 7 Hotels</p>
+      </div>
+      <div>
+        <Image
+          src="/images/d2.jpg"
+          alt="destination"
+          width={200}
+          height={200}
+          className="rounded-full mx-auto"
+        />
+        <h1 className="destination__h1">Japan</h1>
+        <p className="destination__p"> 17 Hotels</p>
+      </div>
+      <div>
+        <Image
+          src="/images/d3.jpg"
+          alt="destination"
+          width={200}
+          height={200}
+          className="rounded-full mx-auto"
+        />
+        <h1 className="destination__h1">Bangladesh</h1>
+        <p className="destination__p"> 3 Hotels</p>
+      </div>
+      <div>
+        <Image
+          src="/images/d4.jpg"
+          alt="destination"
+          width={200}
+          height={200}
+          className="rounded-full mx-auto"
+        />
+        <h1 className="destination__h1">India</h1>
+        <p className="destination__p"> 27 Hotels</p>
+      </div>
+      <div>
+        <Image
+          src="/images/d5.jpg"
+          alt="destination"
+          width={200}
+          height={200}
+          className="rounded-full mx-auto"
+        />
+        <h1 className="destination__h1">England</h1>
+        <p className="destination__p"> 37 Hotels</p>
+      </div>
+      <div>
+        <Image
+          src="/images/d6.jpg"
+          alt="destination"
+          width={200}
+          height={200}
+          className="rounded-full mx-auto"
+        />
+        <h1 className="destination__h1">Australia</h1>
+        <p className="destination__p"> 23 Hotels</p>
       </div>
     </Carousel>
   );
