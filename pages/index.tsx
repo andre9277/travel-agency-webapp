@@ -5,6 +5,7 @@ import Hero from "./Components/Hero";
 import TopDestination from "./Components/TopDestination";
 import Hotels from "./Components/Hotels";
 import Reviews from "./Components/Reviews";
+import Contact from "./Components/Contact";
 
 const HomePage = () => {
   const [nav, setNav] = useState(false);
@@ -21,6 +22,7 @@ const HomePage = () => {
       <Hotels />
       {/* Reviews */}
       <Reviews />
+      <Contact />
     </div>
   );
 };
